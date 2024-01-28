@@ -12,6 +12,8 @@
     <link href="https://cdn.jsdelivr.net/npm/daisyui@4.6.0/dist/full.min.css" rel="stylesheet" type="text/css" />
     <script src="https://cdn.tailwindcss.com"></script>
     <title>Tea House</title>
+    <!-- Font awesome -->
+    <script src="https://kit.fontawesome.com/3ba3e4aff8.js" crossorigin="anonymous"></script>
     <!-- tailwind custom color -->
     <script>
         tailwind.config = {
@@ -45,8 +47,10 @@
                     <button class="btn btn-primary">Explore More</button>
                 </div>
                 <div>
-                    <img src="images/banner.png" class="max-w-sm rounded-lg shadow-2xl" />
-                    <div>
+                    <img src="images/banner.png" class="max-w-sm"/>
+                    <!-- ratings badge -->
+                    <div class="-mt-16 flex items-center gap-4 drop-shadow-lg bg-white p-5 w-60">
+                        <i class="text-3xl text-amber-400 fa-solid fa-star"></i>
                         <div>
                             <h3 class="text-3xl">5.00</h3>
                             <p>Trust Pilot Ratings</p>
